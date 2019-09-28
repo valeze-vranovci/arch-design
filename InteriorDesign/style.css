@@ -1,0 +1,266 @@
+body{
+	background:#606060;
+}
+
+#homepage{
+    font-size: 13px;
+    font-weight: 500;
+    color: #ddd;
+    line-height: 1.8em;
+    padding: 0;
+    background: #606060;
+}
+.navbar{
+	width: 100%;
+    height: 65px;
+    position: fixed;
+    background: #18191b;
+    border-bottom: solid 1px rgba(0,0,0,0.0);
+}
+header div#logo img{
+    display: inline-block;
+    width: 35%;
+    margin-top: 10px;
+    float: left;
+    line-height: 60px;
+}
+.navbar-nav {
+	margin-top: 10px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    float: right;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.navbar-nav li a{
+	color:white;
+}
+.navbar-nav a:hover{
+	color:#111;
+}
+.navbar-nav li a:after{
+    float: right;
+    position: relative;
+    content: "\f111";
+    font-size: 6px;
+    margin-left: 5px;
+    margin-top: 0px;
+    color: #FAB702;
+}
+
+section{
+	background-color:#18191b;
+}
+#services .row h1{
+	font-size: 32px;
+    margin-top:10px ;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.dif-col{
+	color: #FAB702;
+}
+#services img{
+	display:inline-block;
+	width:100%;
+}
+
+
+#filter{
+	float:left;
+	margin-left:100px;
+	margin-top:70px;
+}
+#filters{
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+#filters li{
+	    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+#filters a {
+    outline: none;
+    padding: 10px 20px 8px 20px;
+    color: #888;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+}
+#filters a:hover {
+    background: #111;
+}
+#filters li a.selected{
+	background:#FAB702;
+}
+#filters a.selected {
+    color: #111;
+}
+#all-portfolio{
+	text-align: center;
+	height:80px;
+	background-color:#FAB702;
+}
+a.btn-big {
+    font-size: 14px;
+    color: #eceff3;
+    letter-spacing: 1px;
+    line-height: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid 1px #fff;
+    padding: 10px 30px 10px 30px;
+    margin-top:20px;
+}
+
+
+
+#about{
+	text-align:center;
+}
+ #about p {
+ 	text-align:left;
+	font-size: 15px;
+}
+#about #about-row{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myTable {
+    margin-top: 150px;
+    margin-left: 10%;
+    border: 4px solid #ffffff;
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 15px;
+}
+tr td{
+    text-align: center;
+}
+.col_1{
+    width:15%;
+}
+.col_2{
+    width:15%;
+}
+.col_3{
+    width:15%;
+}
+.col_4{
+    width:15%;
+}
+.col_5{
+    width:20%;
+}
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+@media all and (min-width: 768px) and (max-width: 959px) {
+    td.col_5{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;       
+    } 
+}
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 600px */
+@media all and (min-width: 600px) and (max-width: 767px) {
+   td.col_5{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;       
+    } 
+    td.col_4{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;       
+    } 
+}
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+@media all and (min-width: 480px) and (max-width: 599px) {
+    td.col_5{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;       
+    } 
+    td.col_4{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;       
+    } 
+    td.col_3{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+    } 
+}
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+@media all and (max-width: 479px) {
+    td.col_5{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;       
+    } 
+    td.col_4{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;       
+    } 
+    td.col_3{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+    } 
+    td.col_2{
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+    }    
+}
